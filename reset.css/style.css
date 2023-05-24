@@ -1,3 +1,67 @@
-h2{
-	color: red;
+header{
+	padding:30 px;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	background-color: white;
 }
+.logo{
+	font-size: 20px;
+	color: red;
+	display: inline-block; 
+	vertical-align: middle;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+li{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+nav{
+	display: inline-block;
+
+}
+li a{
+	color: black;
+}
+.container{      
+	width: 1200px;
+	height: 1300px;
+	border: 2px solid black;
+	margin: 0 auto;
+	padding: 10px;
+}
+section{
+	margin-top: 70px;
+
+}
+div h2{
+	display: inline-block
+
+}
+.pipi{
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+	z-index: -1;
+}
+h2{
+	top: 65%;
+	left: 30%;
+	position: absolute;
+	color: gray;
+}
+
+.pupu{
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+	z-index: -1;
+}
+.pipu{
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+	z-index: -1;
+	}
